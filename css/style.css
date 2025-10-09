@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* General */
+html {
+  font-size: 100%;
+}
+body {
+  font-family: sans-serif;
+  color: #707070;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 20px;
+}
+header .logo {
+    max-width: 190px;
+    line-height: 0;
+}
+
+header .logo a {
+    display: block;
+}
+
+header .navi li {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.main-visual {
+  margin-bottom: 80px;
+}
+
+.introduction {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.introduction .catchphrase {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.introduction .text {
+  font-size: 14px;
+}
+
+
+.section-title .en,
+.section-title .ja {
+  display: block; 
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+}
+
+#profile .img {
+    width: 50%;
+    margin-left: 80px;
+}
+#profile .detail {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.works-list li {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.works-list li:nth-child(3n) {
+  margin-right: 0;
+}
